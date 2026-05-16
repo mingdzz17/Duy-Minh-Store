@@ -1,0 +1,2 @@
+2026-05-03T17:14:59+00:00 ERROR Failed to handle the log: Class "Automattic\WooCommerce\Database\Migrations\MigrationHelper" not found
+2026-05-03T17:26:34+00:00 ERROR Failed to handle the log: Class "Automattic\WooCommerce\Database\Migrations\MigrationHelper" not found

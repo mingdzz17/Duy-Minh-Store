@@ -1,0 +1,111 @@
+2026-04-22T02:25:09+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-22T02:25:09+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-22T02:25:09+00:00 ERROR Error persisting error logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T02:25:09+00:00 NOTICE Unable to detect valid feed configuration: No catalog ID
+2026-04-22T02:25:09+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-22T02:25:09+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array('facebook_for_wo...', Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action(86, 'WP Cron')
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run('WP Cron')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#14 {main}
+2026-04-22T02:25:09+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T02:33:19+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T02:36:03+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T02:40:40+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T02:42:22+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-22T02:42:22+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(65): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback(16, 16, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\taxonomy.php(3489): do_action('edited_product_...', 16, 16, Array)
+#6 C:\xampp\htdocs\wordpress\wp-admin\edit-tags.php(183): wp_update_term(16, 'product_cat', Array)
+#7 {main}
+2026-04-22T02:42:48+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-22T02:42:48+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(65): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback(16, 16, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\taxonomy.php(3489): do_action('edited_product_...', 16, 16, Array)
+#6 C:\xampp\htdocs\wordpress\wp-admin\edit-tags.php(183): wp_update_term(16, 'product_cat', Array)
+#7 {main}
+2026-04-22T02:43:49+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-22T02:43:49+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(65): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback(17, 17, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\taxonomy.php(2697): do_action('create_product_...', 17, 17, Array)
+#6 C:\xampp\htdocs\wordpress\wp-admin\includes\ajax-actions.php(1103): wp_insert_term('\xC4\x90\xE1\xBB\x93ng H\xE1\xBB\x93 N\xE1...', 'product_cat', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(341): wp_ajax_add_tag('')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(192): do_action('wp_ajax_add-tag')
+#11 {main}
+2026-04-22T02:45:00+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-22T02:45:00+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(65): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback(18, 18, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\taxonomy.php(2697): do_action('create_product_...', 18, 18, Array)
+#6 C:\xampp\htdocs\wordpress\wp-admin\includes\ajax-actions.php(1103): wp_insert_term('\xC4\x90\xE1\xBB\x93ng H\xE1\xBB\x93 Th...', 'product_cat', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(341): wp_ajax_add_tag('')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(192): do_action('wp_ajax_add-tag')
+#11 {main}
+2026-04-22T02:45:08+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T02:47:17+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-22T02:47:17+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(65): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback(19, 19, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\taxonomy.php(2697): do_action('create_product_...', 19, 19, Array)
+#6 C:\xampp\htdocs\wordpress\wp-admin\includes\ajax-actions.php(1103): wp_insert_term('\xC4\x90\xE1\xBB\x93ng H\xE1\xBB\x93 Th...', 'product_cat', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(341): wp_ajax_add_tag('')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(192): do_action('wp_ajax_add-tag')
+#11 {main}
+2026-04-22T02:50:12+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T02:55:16+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T02:57:53+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-22T02:57:53+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(65): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback(20, 20, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\taxonomy.php(2697): do_action('create_product_...', 20, 20, Array)
+#6 C:\xampp\htdocs\wordpress\wp-admin\includes\ajax-actions.php(1103): wp_insert_term('\xC4\x90\xE1\xBB\x93ng H\xE1\xBB\x93 C\xE1...', 'product_cat', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(341): wp_ajax_add_tag('')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(192): do_action('wp_ajax_add-tag')
+#11 {main}
+2026-04-22T03:01:17+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T03:06:25+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T03:10:20+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T03:14:41+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T03:19:21+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T03:24:46+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T03:30:41+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T03:35:06+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T03:40:48+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T03:44:25+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T03:50:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T03:54:33+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T03:59:46+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-22T04:04:49+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []

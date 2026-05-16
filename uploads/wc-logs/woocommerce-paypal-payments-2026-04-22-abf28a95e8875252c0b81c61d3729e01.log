@@ -1,0 +1,15 @@
+2026-04-22T03:38:56+00:00 DEBUG #9662 - [New Request] GET /wordpress/wp-admin/admin.php
+2026-04-22T03:38:56+00:00 DEBUG #9662 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-04-22T03:38:56+00:00 WARNING #9662 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{"statusCode":404,"error":"Not Found","message":"Not Found"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2026-04-22T03:39:17+00:00 DEBUG #8950 - [New Request] GET /wordpress/wp-json/wc/v3/wc_paypal/webhooks
+2026-04-22T03:39:17+00:00 DEBUG #8950 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Request failed. WP error message: cURL error 6: Could not resolve host: api.woocommerce.com
+

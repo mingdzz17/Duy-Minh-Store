@@ -1,0 +1,6 @@
+2026-05-04T15:52:06+00:00 DEBUG Đã cố gắng xác định URL chỉnh sửa cho đơn hàng 12345, tuy nhiên đơn hàng không tồn tại.
+2026-05-04T15:52:06+00:00 DEBUG Đã cố gắng xác định URL chỉnh sửa cho đơn hàng 12345, tuy nhiên đơn hàng không tồn tại.
+2026-05-04T15:56:00+00:00 DEBUG Đã cố gắng xác định URL chỉnh sửa cho đơn hàng 12345, tuy nhiên đơn hàng không tồn tại.
+2026-05-04T15:56:00+00:00 DEBUG Đã cố gắng xác định URL chỉnh sửa cho đơn hàng 12345, tuy nhiên đơn hàng không tồn tại.
+2026-05-04T16:48:16+00:00 INFO Processing Order id 349 to send Whatsapp Utility messages
+2026-05-04T16:48:16+00:00 INFO Customer Events Post API call for Order id 349 Failed due to failed connection 
